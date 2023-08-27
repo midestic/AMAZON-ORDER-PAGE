@@ -1,0 +1,391 @@
+body {
+    margin: 0;
+}
+
+
+
+#header {
+    width: 100%;
+    padding: 10px;
+    background-color:#565681 ;
+    text-align: center;
+}
+
+#amazon {
+    color: white;
+}
+
+
+section {
+    width: 100%;
+    height: auto;
+}
+
+
+#watch-container {
+    display: inline-block;
+    width: 40%;
+    height: 100vh;
+    /* text-align: center; */
+}
+
+
+#gifwrap {
+    width: 120px;
+    height: 150px;
+transform: translate(190px,-300px);
+
+
+}
+
+
+#gif {
+
+    width: 100%;
+    height: 150px;
+
+
+}
+
+
+
+
+
+
+#countdown {
+    width: 250px;
+    height: 50px;
+    margin-top: 90px;
+    margin-left: 170px;
+    color: white;
+    transform: translateY(-500px);
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 10px;
+    
+}
+
+
+
+
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+
+#bluewatch {
+width: 500px;
+ 
+}
+
+
+#hour {
+    margin-top: 5px;
+    
+}
+
+#minute {
+    margin-top: 5px;
+    
+}
+
+#seconds {
+    margin-top: 5px;
+    
+}
+
+
+
+
+
+
+
+
+#functions {
+    display: inline-block;
+    width: 59%;
+    height: auto;
+    margin: 0;
+    vertical-align: top;
+}
+
+
+#colors {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    height: auto;
+
+}
+
+
+#c1 {
+width: 60px;
+height: 50px;
+background-color:black;
+border-radius: 5px;
+}
+
+#c2 {
+    width: 60px;
+    height: 50px;
+    background-color: #ca3d22;
+    border-radius: 5px;
+}
+
+
+#c3 {
+    width: 60px;
+    height: 50px;
+    background-color: #8a5362;
+    border-radius: 5px;
+}
+
+#c4 {
+    width: 60px;
+    height: 50px;
+    background-color: #e9c7be;
+    border-radius: 5px;
+}
+
+
+
+#features {
+width: 405;
+height: auto;
+
+}
+
+#time {
+    border: 0;
+    outline: none;
+    padding: 10px;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+#rate {
+    margin-left: 5px;
+    border: 0;
+    outline: none;
+    padding: 10px;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+
+#buy {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: orange;
+    border: none;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+
+@media (max-width: 767px) {
+    body {
+        margin: 0;
+    }
+    
+    
+    
+    #header {
+        width: 100%;
+        padding: 10px;
+        background-color:#565681 ;
+        text-align: center;
+    }
+    
+    #amazon {
+        color: white;
+    }
+    
+    
+    section {
+        width: 100%;
+        height: auto;
+    }
+    
+    
+    #watch-container {
+        display: inline-block;
+        width: 40%;
+        height: 100vh;
+       /* border: 1px solid black; */
+       
+    }
+    
+    
+    #gifwrap {
+        width: 120px;
+        height: 150px;
+   
+   
+    
+    }
+    
+    
+    #gif {
+    
+        width: 100%;
+        height: 150px;
+    transform: translateX(-130px);
+    
+    }
+    
+    
+    
+    
+    
+    
+    #countdown {
+        width: 250px;
+        height: 50px;
+        margin-top: 90px;
+        margin-left: 170px;
+        color: rgb(235, 228, 228);
+        transform: translate(-140px,-520px);
+        font-weight: bold;
+        font-size: 40px;
+        padding-top: 10px;
+        
+    }
+    
+    
+    
+    
+    
+    .show {
+        display: block;
+    }
+    
+    .hide {
+        display: none;
+    }
+    
+    
+    #bluewatch {
+    width: 500px;
+     transform: translateX(-130px);
+    }
+    
+    
+    #hour {
+        margin-top: 5px;
+        
+    }
+    
+    #minute {
+        margin-top: 5px;
+        
+    }
+    
+    #seconds {
+        margin-top: 5px;
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    #functions {
+        display: inline-block;
+        width: 59%;
+        height: auto;
+        margin: 0;
+        vertical-align: top;
+        transform: translateX(20px);
+        text-align: center;
+    }
+    
+    
+    #colors {
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+        height: auto;
+    transform: translateX(0px);
+    
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+    
+    #c1 {
+    width: 40px;
+    height: 50px;
+    background-color:black;
+    border-radius: 5px;
+    }
+    
+    #c2 {
+        width: 40px;
+        height: 50px;
+        background-color: #ca3d22;
+        border-radius: 5px;
+    }
+    
+    
+    #c3 {
+        width: 40px;
+        height: 50px;
+        background-color: #8a5362;
+        border-radius: 5px;
+    }
+    
+    #c4 {
+        width: 40px;
+        height: 50px;
+        background-color: #e9c7be;
+        border-radius: 5px;
+    }
+    
+    
+    
+    #features {
+    width: 200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+   
+    }
+    
+    #time {
+        border: 0;
+        outline: none;
+        padding: 10px;
+        font-weight: bolder;
+        border-radius: 5px;
+    }
+    
+    #rate {
+        margin-left: 5px;
+        border: 0;
+        outline: none;
+        padding: 10px;
+        font-weight: bolder;
+        border-radius: 5px;
+    }
+    
+    
+    #buy {
+        margin-top: 30px;
+        padding: 10px;
+        background-color: orange;
+        border: none;
+        font-weight: bolder;
+        border-radius: 5px;
+    }
+  }
+  
